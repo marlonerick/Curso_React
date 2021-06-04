@@ -1,0 +1,41 @@
+.Card {
+    border: 3px solid;
+    border-style: double;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    /**Ajuste do card*/
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.Card .Title {
+    justify-content: center;
+    padding: 10px 0px;
+    color: black;
+    display: flex;
+}
+
+.Card .Content {
+    flex: 1;
+    background-color: turquoise;
+    color: black;
+    padding: 10px;
+}
+
+.animated-gradient {
+    animation: animateBg 60s linear infinite;
+    background-image: linear-gradient(0deg, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000, #ffff00);
+    background-size: 100% 700%;
+}
+
+@keyframes animateBg {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}

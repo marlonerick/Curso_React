@@ -1,0 +1,26 @@
+.Mega label {
+    margin-right: 10px;
+}
+
+.Mega input {
+    font-size: 1.4rem;
+    width: 50px;
+    text-align: center;
+}
+
+.Mega button {
+    background-image: linear-gradient(rgb(91, 250, 255), rgb(0, 86, 167));
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding: 14px 28px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.Mega .info:hover {
+    background: #2196F3;
+    color: white;
+}
